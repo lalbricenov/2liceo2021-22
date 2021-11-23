@@ -1,0 +1,43 @@
+img{
+    opacity: 50%;
+}
+
+div {
+    position: relative;
+    /* --widthDiv: 1000px;
+    width: var(--widthDiv);
+    height: calc(0.35 * var(--widthDiv)); */
+    border: 4px solid green;
+}
+div img{
+
+    width: calc(100% - 6px);
+    height: auto;
+    border: 3px solid blue;
+    
+}
+div p{
+    position: absolute;
+    border: 1px solid red;
+    padding: 10px;
+}
+.arrIzq{
+    top: 5px;
+    left: 5px;
+}
+.arrDer{
+    top: 5px;
+    right: 5px;
+}
+.abaIzq{
+    bottom: 5px;
+    left: 5px;
+}
+.abaDer{
+    bottom: 5px;
+    right: 5px;
+}
+.centro{
+    top: 5px;
+    left: 5px;
+}

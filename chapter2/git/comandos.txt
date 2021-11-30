@@ -1,0 +1,25 @@
+Comandos powershell:
+- Mirar la ubicación en la 
+  que se encuentran: pwd 
+- Cambiar de carpeta: cd nombreCarpeta
+- Ir a la carpeta de más arriba: cd ..
+- Ver qué hay en esta carpeta: ls 
+
+Cómo crear un repositorio:
+- Revisar que se encuentre en la carpeta correcta
+- Escribir: git init
+
+Debemos decirle a git quienes somos:
+git config --global user.email lalbricenov@gmail.com
+git config --global user.name "Luis Briceño"
+
+Cómo guardar versiones de nuestro trabajo:
+- Añadir los archivos al commit (foto)
+  que se va a hacer: git add .
+- Hacer el commit: git commit -m "Mensaje"
+
+Ver historial de commits:
+- git log
+
+Revisar un commit anterior: git checkout idCommit
+Volver al ultimo commit: git checkout master

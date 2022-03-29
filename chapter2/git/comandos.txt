@@ -23,3 +23,11 @@ Ver historial de commits:
 
 Revisar un commit anterior: git checkout idCommit
 Volver al ultimo commit: git checkout master
+
+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
+https://lalbricenov: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@github.com/lalbricenov/2liceo2021-22.git
+
+Para subir su trabajo a github
+git add .
+git commit -m "mensaje"
+git push origin master
